@@ -1,0 +1,684 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "how are you"
+      },
+      {
+        "intent": "greet",
+        "text": "how are u"
+      },
+      {
+        "intent": "greet",
+        "text": "what's up"
+      },
+      {
+        "intent": "greet",
+        "text": "wassup"
+      },
+      {
+        "intent": "greet",
+        "text": "how's it going"
+      },
+      {
+        "intent": "greet",
+        "text": "what's popping"
+      },
+      {
+        "intent": "greet",
+        "text": "what's good"
+      },
+      {
+        "intent": "greet",
+        "text": "how are we doing today"
+      },
+      {
+        "intent": "greet",
+        "text": "what can you do for me?"
+      },
+      {
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "AAPL",
+            "entity": "company"
+          }
+        ],
+        "text": "AAPL"
+      },
+      {
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "AAPL",
+            "entity": "company"
+          }
+        ],
+        "text": "Show me AAPL"
+      },
+      {
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "TSLA",
+            "entity": "company"
+          }
+        ],
+        "text": "Show me TSLA"
+      },
+      {
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "stock price",
+            "entity": "price"
+          }
+        ],
+        "text": "stock price"
+      },
+      {
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "the price",
+            "entity": "price"
+          }
+        ],
+        "text": "the price"
+      },
+      {
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "price of it",
+            "entity": "price"
+          }
+        ],
+        "text": "price of it"
+      },
+      {
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "price",
+            "entity": "price"
+          }
+        ],
+        "text": "price"
+      },
+      {
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "volume",
+            "entity": "volume"
+          }
+        ],
+        "text": "volume"
+      },
+      {
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 22,
+            "value": "the trading volume",
+            "entity": "volume"
+          }
+        ],
+        "text": "umm,the trading volume"
+      },
+      {
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "volume",
+            "entity": "volume"
+          }
+        ],
+        "text": "volume please"
+      },
+      {
+        "intent": "stock_search",
+        "text": "i'm looking for a stock"
+      },
+      {
+        "intent": "stock_search",
+        "text": "i'm looking for a company"
+      },
+      {
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "google's",
+            "entity": "company"
+          },
+          {
+            "start": 25,
+            "end": 38,
+            "value": "market volume",
+            "entity": "volume"
+          }
+        ],
+        "text": "I'm looking for google's market volume"
+      },
+      {
+        "intent": "stock_search",
+        "text": "I want to search for a stock"
+      },
+      {
+        "intent": "stock_search",
+        "text": "I want to search for a company"
+      },
+      {
+        "intent": "stock_search",
+        "text": "I am searching for a stock"
+      },
+      {
+        "intent": "stock_search",
+        "text": "I am searching for a company"
+      },
+      {
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 26,
+            "end": 37,
+            "value": "share price",
+            "entity": "price"
+          }
+        ],
+        "text": "i'm looking for a stock‘s share price"
+      },
+      {
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "tesla",
+            "entity": "company"
+          },
+          {
+            "start": 14,
+            "end": 19,
+            "value": "value",
+            "entity": "price"
+          }
+        ],
+        "text": "show me tesla value"
+      },
+      {
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 19,
+            "value": "coca cola's",
+            "entity": "company"
+          },
+          {
+            "start": 20,
+            "end": 25,
+            "value": "price",
+            "entity": "price"
+          },
+          {
+            "start": 26,
+            "end": 40,
+            "value": "in the morning",
+            "entity": "time"
+          }
+        ],
+        "text": "show me coca cola's price in the morning"
+      },
+      {
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "starbucks",
+            "entity": "company"
+          },
+          {
+            "start": 18,
+            "end": 30,
+            "value": "market price",
+            "entity": "price"
+          },
+          {
+            "start": 34,
+            "end": 38,
+            "value": "7:00",
+            "entity": "time"
+          }
+        ],
+        "text": "show me starbucks market price at 7:00"
+      },
+      {
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "sodexo's",
+            "entity": "company"
+          },
+          {
+            "start": 17,
+            "end": 22,
+            "value": "price",
+            "entity": "price"
+          },
+          {
+            "start": 23,
+            "end": 28,
+            "value": "today",
+            "entity": "time"
+          }
+        ],
+        "text": "show me sodexo's price today"
+      },
+      {
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 18,
+            "value": "J.P Morgan",
+            "entity": "company"
+          },
+          {
+            "start": 19,
+            "end": 24,
+            "value": "value",
+            "entity": "price"
+          }
+        ],
+        "text": "tell me J.P Morgan value"
+      },
+      {
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 18,
+            "value": "facebook's",
+            "entity": "company"
+          },
+          {
+            "start": 19,
+            "end": 24,
+            "value": "price",
+            "entity": "price"
+          },
+          {
+            "start": 25,
+            "end": 33,
+            "value": "at night",
+            "entity": "time"
+          }
+        ],
+        "text": "tell me facebook's price at night"
+      },
+      {
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 34,
+            "end": 39,
+            "value": "Baidu",
+            "entity": "company"
+          },
+          {
+            "start": 19,
+            "end": 30,
+            "value": "close price",
+            "entity": "price"
+          }
+        ],
+        "text": "I want to know the close price of Baidu"
+      },
+
+      {
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 18,
+            "value": "Mitsubishi",
+            "entity": "company"
+          },
+          {
+            "start": 19,
+            "end": 31,
+            "value": "market price",
+            "entity": "price"
+          },
+          {
+            "start": 35,
+            "end": 39,
+            "value": "5:34",
+            "entity": "time"
+          }
+        ],
+        "text": "tell me Mitsubishi market price at 5:34"
+      },
+      {
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "Alibaba's",
+            "entity": "company"
+          },
+          {
+            "start": 18,
+            "end": 23,
+            "value": "price",
+            "entity": "price"
+          },
+          {
+            "start": 24,
+            "end": 33,
+            "value": "yesterday",
+            "entity": "time"
+          }
+        ],
+        "text": "tell me Alibaba's price yesterday"
+      },
+      {
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "gap's",
+            "entity": "company"
+          }
+        ],
+        "text": "i am looking for gap's"
+      },
+      {
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "apple",
+            "entity": "company"
+          },
+          {
+            "start": 21,
+            "end": 26,
+            "value": "price",
+            "entity": "price"
+          }
+        ],
+        "text": "let's see some apple price"
+      },
+      {
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "AAPL",
+            "entity": "company"
+          }
+        ],
+        "text": "let's see some AAPL"
+      },
+      {
+        "intent": "stock_search",
+        "text": "search for stocks"
+      },
+      {
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "wawa",
+            "entity": "company"
+          }
+        ],
+        "text": "anything about wawa"
+      },
+      {
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 29,
+            "value": "market price",
+            "entity": "price"
+          },
+          {
+            "start": 34,
+            "end": 40,
+            "value": "volume",
+            "entity": "volume"
+          },
+          {
+            "start": 44,
+            "end": 51,
+            "value": "tencent",
+            "entity": "company"
+          }
+        ],
+        "text": "I wanna know the market price and volume of tencent"
+      },
+      {
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "how much",
+            "entity": "price"
+          },
+          {
+            "start": 20,
+            "end": 25,
+            "value": "costa",
+            "entity": "company"
+          },
+          {
+            "start": 26,
+            "end": 31,
+            "value": "today",
+            "entity": "time"
+          }
+        ],
+        "text": "tell me how much is costa today"
+      },
+      {
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 31,
+            "value": "how much amount",
+            "entity": "volume"
+          },
+          {
+            "start": 35,
+            "end": 41,
+            "value": "Amazon",
+            "entity": "company"
+          },
+          {
+            "start": 42,
+            "end": 51,
+            "value": "yesterday",
+            "entity": "time"
+          }
+        ],
+        "text": "can you tell me how much amount is Amazon yesterday"
+      },
+      {
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 25,
+            "value": "trading amount",
+            "entity": "volume"
+          },
+          {
+            "start": 29,
+            "end": 39,
+            "value": "turkeyhill",
+            "entity": "company"
+          },
+          {
+            "start": 40,
+            "end": 47,
+            "value": "at noon",
+            "entity": "time"
+          }
+        ],
+        "text": "what's the trading amount of turkeyhill at noon?"
+      },
+      {
+        "intent": "stock_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 25,
+            "value": "trading volume",
+            "entity": "volume"
+          },
+          {
+            "start": 29,
+            "end": 33,
+            "value": "Nike",
+            "entity": "company"
+          },
+          {
+            "start": 34,
+            "end": 45,
+            "value": "ten o'clock",
+            "entity": "time"
+          }
+        ],
+        "text": "what's the trading volume of Nike ten o'clock?"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks!"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thank you"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thx"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks very much"
+      },
+      {
+        "intent": "thankyou",
+        "text": "great!"
+      },
+      {
+        "intent": "thankyou",
+        "text": "awesome, thank you"
+      },
+      {
+        "intent": "thankyou",
+        "text": "got you! Thanks"
+      },
+      {
+        "intent": "thankyou",
+        "text": "alright"
+      },
+      {
+        "intent": "thankyou",
+        "text": "hurray"
+      },
+      {
+        "intent": "thankyou",
+        "text": "good night thanks"
+      },
+      {
+        "intent": "thankyou",
+        "text": "nice"
+      },
+      {
+        "intent": "thankyou",
+        "text": "nice job"
+      },
+      {
+        "intent": "thankyou",
+        "text": "hahaha thank you"
+      },
+      {
+        "intent": "thankyou",
+        "text": "xiexie"
+      },
+      {
+        "intent": "thankyou",
+        "text": "bye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "byebye"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
