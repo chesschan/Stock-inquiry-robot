@@ -7,6 +7,18 @@ And "chaboot_data.py" is the main program file.<br>
 ## Installation Instructions
 There are few online packages need to be installed for this project<br>
 
+### Python
+My python version is "python 3.6.6".<br>
+You can install python 3.6.6 from https://www.python.org/downloads/<br>
+
+### sklearn_crfsuite
+You can install "sklearn_crfsuite" by running the code below:<br>
+pip install sklearn_crfsuite<br>
+
+### Install "requeirment.txt"
+You can install this file by running the following code:<br>
+pip install -r requeirment.txt<br>
+
 ### Rasa-NLU
 #### Prerequisites
 Make sure the Microsoft VC++ Compiler is installed, so python can compile any dependencies. You can get the compiler from: https://visualstudio.microsoft.com/visual-cpp-build-tools/ Download the installer and select VC++ Build tools in the list.<br>
@@ -60,4 +72,4 @@ Go to https://wxpy.readthedocs.io/zh/latest/#<br>
 1.Download all files in a same folder.<br>
 2.You run the file called "chaboot_data.py".<br> 
 3.An QR code will created automatically, use your Wechat to scan the QR code and log in.<br>
-4.Start to chat!
+4.Now, your Wechat will turn to the Stock-inquery-robot, and others can inpuery stock information by chatting with you on Wechat.
