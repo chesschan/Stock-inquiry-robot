@@ -24,6 +24,7 @@ git clone https://github.com/RasaHQ/rasa_nlu.git<br>
 cd rasa_nlu<br>
 pip install -r requirements.txt<br>
 pip install -e .<br>
+
 Rasa NLU has different components for recognizing intents and entities, most of these will have some additional dependencies. When you train your model, Rasa NLU will check if all required dependencies are installed and tell you if any are missing.<br>
 
 #### For more installation information
@@ -54,3 +55,9 @@ pip install -U wxpy<br>
 
 #### For more installation information
 Go to https://wxpy.readthedocs.io/zh/latest/#<br>
+
+## operating instructions
+1.Download all files in a same folder.<br>
+2.You run the file called "chaboot_data.py".<br> 
+3.An QR code will created automatically, use your Wechat to scan the QR code and log in.<br>
+4.Start to chat!
