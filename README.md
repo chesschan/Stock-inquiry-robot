@@ -4,3 +4,4 @@ You can open "stock inquery robot.mp4" to see what is look like when the program
 And "chaboot_data.py" is the main program file.<br>
 
 ![image]
+https://github.com/chesschan/Stock-inquiry-robot/blob/master/stock%20inquery%20robot.gif
