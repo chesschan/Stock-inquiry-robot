@@ -1,6 +1,56 @@
 # Stock-inquiry-robot
-This program can be used to query information about stocks.
-You can open "stock inquery robot.mp4" to see what is look like when the program is running.
+This program can be used to query information about stocks.<br>
+You can open "stock inquery robot.mp4" to see what is look like when the program is running.<br>
 And "chaboot_data.py" is the main program file.<br>
 
-![image](https://github.com/chesschan/Stock-inquiry-robot/blob/master/stock%20inquery%20robot.gif)
+![image](https://github.com/chesschan/Stock-inquiry-robot/blob/master/stock%20inquery%20robot.gif)<br>
+## Installation Instructions
+There are few online packages need to be installed for this project<br>
+
+### Rasa-NLU
+#### Prerequisites
+Make sure the Microsoft VC++ Compiler is installed, so python can compile any dependencies. You can get the compiler from: https://visualstudio.microsoft.com/visual-cpp-build-tools/ Download the installer and select VC++ Build tools in the list.<br>
+
+Setting up Rasa NLU<br>
+
+#### Stable (Recommended)
+The recommended way to install Rasa NLU is using pip which will install the latest stable version of Rasa NLU:<br>
+
+pip install rasa_nlu<br>
+#### Latest (Most recent github)
+If you want to use the bleeding edge version you can get it from github:<br>
+
+git clone https://github.com/RasaHQ/rasa_nlu.git<br>
+cd rasa_nlu
+pip install -r requirements.txt
+pip install -e .
+Rasa NLU has different components for recognizing intents and entities, most of these will have some additional dependencies. When you train your model, Rasa NLU will check if all required dependencies are installed and tell you if any are missing.<br>
+
+#### For more installation information
+Go to https://rasa.com/docs/nlu/installation/<br>
+
+### iexfinance
+Setting up iexfinance<br>
+#### From PyPI with pip (latest stable release):
+$ pip3 install iexfinance
+#### From development repository (dev version):
+If you want to use the bleeding edge version you can get it from github:<br>
+
+$ git clone https://github.com/addisonlynch/iexfinance.git
+$ cd iexfinance
+$ python3 setup.py install
+For more installation information Go to https://github.com/addisonlynch/iexfinance<br>
+
+### spacy
+#### Setting up iexfinance
+conda install -c conda-forge spacy=2.0.11
+python -m spacy download en_core_web_md
+### wxpy
+#### Setting up wxpy
+wxpy support Python 3.4-3.6, and 2.7 version To ensure the package can be installed in different Python version Replace pip in the commond below to pip3 or pip2<br>
+
+#### From PyPI with pip:
+pip install -U wxpy
+
+#### For more installation information
+Go to https://wxpy.readthedocs.io/zh/latest/#
