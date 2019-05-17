@@ -21,9 +21,9 @@ pip install rasa_nlu<br>
 If you want to use the bleeding edge version you can get it from github:<br>
 
 git clone https://github.com/RasaHQ/rasa_nlu.git<br>
-cd rasa_nlu
-pip install -r requirements.txt
-pip install -e .
+cd rasa_nlu<br>
+pip install -r requirements.txt<br>
+pip install -e .<br>
 Rasa NLU has different components for recognizing intents and entities, most of these will have some additional dependencies. When you train your model, Rasa NLU will check if all required dependencies are installed and tell you if any are missing.<br>
 
 #### For more installation information
@@ -32,25 +32,25 @@ Go to https://rasa.com/docs/nlu/installation/<br>
 ### iexfinance
 Setting up iexfinance<br>
 #### From PyPI with pip (latest stable release):
-$ pip3 install iexfinance
+$ pip3 install iexfinance<br>
 #### From development repository (dev version):
 If you want to use the bleeding edge version you can get it from github:<br>
 
 $ git clone https://github.com/addisonlynch/iexfinance.git
-$ cd iexfinance
-$ python3 setup.py install
+$ cd iexfinance<br>
+$ python3 setup.py install<br>
 For more installation information Go to https://github.com/addisonlynch/iexfinance<br>
 
 ### spacy
 #### Setting up iexfinance
-conda install -c conda-forge spacy=2.0.11
-python -m spacy download en_core_web_md
+conda install -c conda-forge spacy=2.0.11<br>
+python -m spacy download en_core_web_md<br>
 ### wxpy
 #### Setting up wxpy
 wxpy support Python 3.4-3.6, and 2.7 version To ensure the package can be installed in different Python version Replace pip in the commond below to pip3 or pip2<br>
 
 #### From PyPI with pip:
-pip install -U wxpy
+pip install -U wxpy<br>
 
 #### For more installation information
-Go to https://wxpy.readthedocs.io/zh/latest/#
+Go to https://wxpy.readthedocs.io/zh/latest/#<br>
