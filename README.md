@@ -2,6 +2,7 @@
 This program can be used to query information about stocks.<br>
 You can open "stock inquery robot.mp4" to see what is look like when the program is running.<br>
 And "chaboot_data.py" is the main program file.<br>
+You can also open "MIT Remote Research Report.pdf" or "MIT Remote Research Report.docx" to see the details of the whole project, either of them is my report.<br>
 
 ![image](https://github.com/chesschan/Stock-inquiry-robot/blob/master/stock%20inquery%20robot.gif)<br>
 ## Installation Instructions
